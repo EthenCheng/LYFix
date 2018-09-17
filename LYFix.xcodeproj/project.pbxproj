@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D324633765B79BF363A841D /* libPods-LYFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637285A38C4532009A97E4C0 /* libPods-LYFix.a */; };
+		5F2EFBBC214F4E8500B66A6B /* LYComAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EFBBB214F4E8500B66A6B /* LYComAPI.m */; };
 		5F518CE1210883CE008D4C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F518CE0210883CE008D4C5A /* AppDelegate.m */; };
 		5F518CE4210883CE008D4C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F518CE3210883CE008D4C5A /* ViewController.m */; };
 		5F518CE7210883CE008D4C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F518CE5210883CE008D4C5A /* Main.storyboard */; };
@@ -56,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F2EFBBA214F4E8500B66A6B /* LYComAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYComAPI.h; sourceTree = "<group>"; };
+		5F2EFBBB214F4E8500B66A6B /* LYComAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYComAPI.m; sourceTree = "<group>"; };
 		5F518CDC210883CE008D4C5A /* LYFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F518CDF210883CE008D4C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F518CE0210883CE008D4C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 			children = (
 				5F518D952109C4D9008D4C5A /* NSInvocation+LYAddtion.h */,
 				5F518D962109C4D9008D4C5A /* NSInvocation+LYAddtion.m */,
+				5F2EFBBA214F4E8500B66A6B /* LYComAPI.h */,
+				5F2EFBBB214F4E8500B66A6B /* LYComAPI.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				5F8C29C12110323D007A99C9 /* Test.m in Sources */,
 				5F518D972109C4D9008D4C5A /* NSInvocation+LYAddtion.m in Sources */,
 				5F518CE4210883CE008D4C5A /* ViewController.m in Sources */,
+				5F2EFBBC214F4E8500B66A6B /* LYComAPI.m in Sources */,
 				5F518CEF210883CF008D4C5A /* main.m in Sources */,
 				5F8C29BE2110320E007A99C9 /* Aspects.m in Sources */,
 				5F518D5721088D95008D4C5A /* LYFix.m in Sources */,
